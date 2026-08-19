@@ -223,6 +223,35 @@ span {
     margin: 1rem 0 3rem;
 }
 
+/* Services Dual Button Layout */
+.services-box .btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.btn-sm {
+    padding: 0.8rem 1.4rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    white-space: nowrap;
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--main-color);
+    border: .2rem solid var(--main-color);
+    box-shadow: none;
+}
+
+.btn-outline:hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
 /* Contact Section */
 .contact {
     background: var(--second-bg-color);
